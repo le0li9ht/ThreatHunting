@@ -1,8 +1,0 @@
-| RMM           | URL                        | Reference        |
-|---------------|----------------------------|------------------|
-|N-able Remote Software Management|n-able.com|| 
-||upload1.am.remote.management|https://documentation.n-able.com/remote-management/userguide/Content/agent_upload_urls.htm |
-|               |upload2.am.remote.management|                  |
-|               |upload3.am.remote.management|                  |
-||upload4.am.remote.management||
-
