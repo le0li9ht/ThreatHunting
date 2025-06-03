@@ -16,7 +16,8 @@ At victim side, for getting persistence edit the file /etc/pam.d/common-auth fil
 ``auth optional pam_exec.so quiet setuid /tmp/s.sh``  
 **Note1:** /tmp/s.sh file a backdoor script in this scenario.   
 **Note2:** In PAM configuration, the **success=N** directive means: If the current module succeeds, skip the next N lines. So if the ssh authentication is successful the module has to skip the next  3 followed lines. Since the SSH authentication module currently uses success=2, and we are adding an additional line below it, we need to update this value to success=3 to ensure the correct number of lines are skipped on successful authentication.    
-**Before:**  
+**Before:**   
+
 ![image](https://github.com/user-attachments/assets/da285bd7-1df4-40e2-9352-1e243c80b773)    
 
 **After:**   
