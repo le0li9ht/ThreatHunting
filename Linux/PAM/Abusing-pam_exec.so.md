@@ -49,4 +49,4 @@ Try repeatedly logging into the victim machine’s SSH with invalid credentials 
 ```ssh user@<victimIp>```    
 Finally the output looks like below.  
 
-![2025-06-03_21-09](https://github.com/user-attachments/assets/89aadc9b-46ca-4925-8996-c6305434d260)  
+![450890823-89aadc9b-46ca-4925-8996-c6305434d260](https://github.com/user-attachments/assets/4a75f2ed-9450-4e07-87aa-d0ecb26511f4)  
