@@ -24,8 +24,8 @@ At victim side, for getting persistence edit the file /etc/pam.d/common-auth fil
 You can observe the modified success value to 3 in pam_unix.so line as shown.  
 
 ![PAM-Exec-SSHFailure](https://github.com/user-attachments/assets/d3cf8ab4-b491-46fc-a378-865b55e71808)  
-Once you make any changes to PAM configuration you have to restart  
-sudo systemctl restart ssh  
+Once you make any changes to PAM configuration you have to restart ssh. 
+```sudo systemctl restart ssh```  
 
 
 #### Step2: Drop Backdoor script 
