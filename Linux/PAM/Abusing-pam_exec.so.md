@@ -1,13 +1,12 @@
 ## [T1556.003-Modify Authentication Process: Pluggable Authentication Modules](https://attack.mitre.org/techniques/T1556/003/)  
 
 ### Background  
-The pam_exec.so module in Linux Pluggable Authentication Modules (PAM) provides a flexible mechanism to execute custom scripts during various authentication stages. While commonly used for legitimate logging and running scripts for automation, this feature can be maliciously abused to trigger backdoor scripts in response to specific authentication events. In this scenario lets see how to trigger backdoor for SSH failure logins on Ubuntu 22.04 and maintain persistence. This technique can work in all other ubuntu environments as well. While Group-IB showcased this [technique](https://www.group-ib.com/blog/pluggable-authentication-module/) on Red Hat-based systems like Fedora and CentOS, they didn’t cover Debian-based environments. Here, I demonstrate how the same method works on Ubuntu or Debian-Based Systems. 
+The pam_exec.so module in Linux Pluggable Authentication Modules (PAM) provides a flexible mechanism to execute custom scripts during various authentication stages. While commonly used for legitimate logging and running scripts for automation, this feature can be maliciously abused to trigger backdoor scripts in response to specific authentication events. In this scenario lets see how to trigger backdoor for SSH failure logins on Ubuntu 22.04 and maintain persistence. This technique can work in all other ubuntu environments as well. While Group-IB showcased this [technique](https://www.group-ib.com/blog/pluggable-authentication-module/) on Red Hat-based systems like Fedora and CentOS, they didn’t cover Debian-based environments. Here, I demonstrate how the same method works on Ubuntu or Debian-Based Systems. Unlike RPM-based systems where the /etc/pam.d/sshd file handles SSH authentication directly, Debian-based systems separate the authentication logic into the /etc/pam.d/common-auth file, which is included by the sshd PAM configuration.
 ### Test Environment: 
 **Victim:** Ubuntu 22.04    
 **Attacker:** Ubuntu 24.04 (You can choose any OS vendor for this)  
 Install netcat on Attacker system.  
-**Note:** You can try with any Operating Systems.  
-
+**Note:** This technique works on all debian systems.
 ### Implementation:  
 
 #### Step1: Change the PAM config
