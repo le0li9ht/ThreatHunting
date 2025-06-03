@@ -7,7 +7,9 @@ The pam_exec.so module in Linux Pluggable Authentication Modules (PAM) provides 
 **Attacker:** Ubuntu 24.04 (You can choose any OS vendor for this)  
 Install netcat on Attacker system.  
 **Note:** You can try with any Operating Systems.  
-### Implementation:
+
+### Implementation:  
+
 #### Step1: Change the PAM config
 At victim side, for getting persistence edit the file /etc/pam.d/common-auth file and add the following line below pam_unix.so line.  
 ``vim /etc/pam.d/common-auth``   
@@ -42,4 +44,5 @@ listen for incoming connections.
 Try repeatedly logging into the victim machine’s SSH with invalid credentials to generate authentication failures that will trigger the backdoor as shown below screenshot.  
 ```ssh user@<victimIp>```    
 Finally the output looks like below.  
+
 ![2025-06-03_21-09](https://github.com/user-attachments/assets/89aadc9b-46ca-4925-8996-c6305434d260)  
