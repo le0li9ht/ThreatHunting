@@ -248,6 +248,7 @@ When an attacker logs into an account using a stolen session, several parameters
 SigninLogs
 | summarize Useragentlist=make_set(DeviceDetail.browser),OS=make_set(DeviceDetail.operatingSystem),IPlist=make_list(IPAddress),make_list(DeviceDetail),City=make_set(LocationDetails.city),count() by SessionId
 | where array_length(Useragentlist)>1 or array_length(OS)>1 or array_length(City)>1
-```  
+```
+You can download the chrome extension code from [here](https://github.com/le0li9ht/ThreatHunting/blob/main/Cloud/coockie-bite-extension.zip)
 
 Thank You.
