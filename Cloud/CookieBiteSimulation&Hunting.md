@@ -202,7 +202,7 @@ When the extension icon is clicked, it displays the popup.html content designed 
 #### Step5: Victim login - Credentials exfiltration.
 Now, when the user logs into the Azure portal or any Microsoft login page, the extension captures the authentication cookies in real time and silently exfiltrates them to google form as shown.  
 ![2025-06-04_17-54](https://github.com/user-attachments/assets/0d557b73-d4e1-4e58-9dc0-6afe5aff3bf2)  
-Install the [editthiscookie](https://www.editthiscookie.com/). Next open portal.azure.com login page. extension on attacker machine. And copy those cookie json value to edithiscookie extension and refresh the page.
+Install the [editthiscookie](https://www.editthiscookie.com/).
 
 #### Step6: Session Hijacking
 - Install the [EditThisCookie](https://www.editthiscookie.com/) extension in your browser.  
