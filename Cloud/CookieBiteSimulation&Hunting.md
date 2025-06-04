@@ -1,3 +1,5 @@
+## Cookie-Bite - Simulation & Hunting  
+
 #### Disclaimer   
 _This article is intended for educational and awareness purposes only. The techniques demonstrated are for understanding security risks and improving defenses. Unauthorized use or replication of these methods for malicious activities is strictly prohibited and may be illegal. Always obtain proper authorization before testing or simulating attacks on any systems. The author is not responsible for any misuse, damage, or illegal activities resulting from applying the techniques discussed._
 ### Background:
@@ -205,7 +207,7 @@ Install the [editthiscookie](https://www.editthiscookie.com/). Next open portal.
 #### Step6: Session Hijacking
 - Install the [EditThisCookie](https://www.editthiscookie.com/) extension in your browser.  
 - On the attacker's machine, open the login page at portal.azure.com.  
-- Use the malicious extension to capture the victim’s cookie in JSON format.  
+- Copy the victim’s cookie in JSON format from google form response.  
 - Paste the stolen cookie data into the EditThisCookie extension.  
 - Refresh the page — you should now be logged into the victim’s session, demonstrating successful session hijacking.
 
