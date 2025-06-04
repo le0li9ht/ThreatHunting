@@ -199,7 +199,7 @@ Once you install the chrome extension the extension looks like below.
 When the extension icon is clicked, it displays the popup.html content designed to mimic a legitimate Microsoft sync page, adding credibility to the malicious extension.  
 ![2025-06-04_17-46](https://github.com/user-attachments/assets/4a10bc84-64eb-4a5b-b5c5-4cf9d9e1f536)  
 
-#### Step5: Victim logsin - credentils exfiltration.
+#### Step5: Victim login - Credentials exfiltration.
 Now, when the user logs into the Azure portal or any Microsoft login page, the extension captures the authentication cookies in real time and silently exfiltrates them to google form as shown.  
 ![2025-06-04_17-54](https://github.com/user-attachments/assets/0d557b73-d4e1-4e58-9dc0-6afe5aff3bf2)  
 Install the [editthiscookie](https://www.editthiscookie.com/). Next open portal.azure.com login page. extension on attacker machine. And copy those cookie json value to edithiscookie extension and refresh the page.
