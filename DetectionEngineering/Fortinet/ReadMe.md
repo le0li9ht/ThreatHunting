@@ -1,5 +1,5 @@
 ### Extracting Fortinet Events from the Log Reference Guide Made Easy
-While working on Fortinet log integration with SIEM, one major challenge is identifying and filtering relevant events from the extensive Fortinet Log Reference Guide — which often requires tedious copy-pasting. To simplify this, I built a Python script that extracts all Fortinet event details from the PDF and neatly converts them into a CSV file for easier analysis and use. Sharing it here so others working on similar integrations can save time and effort! give it for just this text dont change anything in the text
+While working on Fortinet log integration with SIEM, one major challenge is identifying and filtering relevant events from the extensive Fortinet Log Reference Guide — which often requires tedious copy-pasting. To simplify this, I built a Python script that extracts all Fortinet event details from the PDF and neatly converts them into a CSV file for easier analysis and use. Sharing it here so others working on similar integrations can save time and effort!
 #### How to use the script  
 **Step1:** Install Python3  
 **Step2:** Install the PyMuPDF module.  
