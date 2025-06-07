@@ -8,7 +8,7 @@ PAM modules are dynamically loaded components that handle authentication on Linu
 #### How the backdoor works?
 The malicious code hooks into _pam_sm_authenticate()_, capturing the username via _pam_get_user()_ and the password via _pam_get_authtok()_ before silently logging or exfiltrating them. Meanwhile, _pam_sm_setcred()_ completes the authentication process to avoid detection.
 
-I’ve uploaded code for two Linux PAM modules: one logs credentials to disk (already compiled), and the other exfiltrates to Google Forms (requires updating values before compiling). 
+I’ve uploaded code for two Linux PAM modules: one logs credentials to disk (already compiled), and the other exfiltrates to Google Forms (requires updating values before compiling). Download [here](https://github.com/le0li9ht/ThreatHunting/blob/main/Linux/PAM/StealingCredentials/pam_backdoor_lab.zip)  
 ##### Code files
 
 ```
