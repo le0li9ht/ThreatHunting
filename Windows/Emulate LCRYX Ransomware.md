@@ -1,0 +1,1 @@
+I’ve developed a VBS script that simulates the key TTPs of the LCRYX ransomware. Most of the individual code snippets were already detailed in the original [article](https://labs.k7computing.com/index.php/lcryx-ransomware-how-a-vb-ransomware-locks-your-system/)—I simply consolidated and structured them into a complete, standalone script for easier simulation and testing.
