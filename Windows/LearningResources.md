@@ -8,4 +8,4 @@ RedTeaming Free cources:
 - [https://redteamleaders.coursestack.com](https://redteamleaders.coursestack.com)  
   
 Detection Engineering Ideas:  
-[https://docs.sekoia.io/xdr/features/detect/built_in_detection_rules/](https://docs.sekoia.io/xdr/features/detect/built_in_detection_rules/)  
+- [https://docs.sekoia.io/xdr/features/detect/built_in_detection_rules/](https://docs.sekoia.io/xdr/features/detect/built_in_detection_rules/)  
