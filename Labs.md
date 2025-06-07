@@ -1,2 +1,2 @@
-- Create web labs on the fly  
+- Create Vulnerable webapp labs on the fly  
   - [https://websploit.org/](https://websploit.org/)  
