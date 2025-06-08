@@ -73,4 +73,10 @@ Credentials are sent silently to your configured Google Form. Check your Google 
 ![2025-06-08_00-54](https://github.com/user-attachments/assets/8d773b2c-7369-4e9e-af75-7961f9da1fef)
 Exfiltrated credentials on google form.
   
+#### Detection
+Always monitor the directories where PAM modules are loaded—such as /etc/pam.d/ and /lib/security/  /lib/x86_64-linux-gnu/security/  —using File Integrity Monitoring (FIM) to detect unauthorized changes. 
+
+##### MITRE. 
+[T1556.003 - Pluggable Authentication Modules: Malicious PAM](https://attack.mitre.org/techniques/T1556/003/)  
+
 
