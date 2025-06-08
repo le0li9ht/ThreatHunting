@@ -85,7 +85,7 @@ Exfiltrated credentials on google form.
 #### Detection. 
 Always monitor the directories where PAM modules are loaded—such as _/etc/pam.d/_ and _/lib/security/_  _/lib/x86_64-linux-gnu/security/_  —using File Integrity Monitoring (FIM) to detect unauthorized changes.  
 
-Elastic has written a nicr detection rule for the same [persistence_pluggable_authentication_module_creation](https://github.com/elastic/detection-rules/blob/ac541f0b18697e053b3b56544052955d29b440c0/rules/linux/persistence_pluggable_authentication_module_creation.toml)  
+Elastic has written a nice detection rule for the same [persistence_pluggable_authentication_module_creation](https://github.com/elastic/detection-rules/blob/ac541f0b18697e053b3b56544052955d29b440c0/rules/linux/persistence_pluggable_authentication_module_creation.toml)  
 ##### MITRE. 
 [T1556.003 - Pluggable Authentication Modules: Malicious PAM](https://attack.mitre.org/techniques/T1556/003/)  
 
