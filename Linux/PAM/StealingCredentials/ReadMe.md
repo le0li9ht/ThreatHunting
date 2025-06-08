@@ -26,9 +26,18 @@ For the first, just copy the compiled module to the shared library location.  I 
 
 ![image](https://github.com/user-attachments/assets/e5021065-7e31-4744-804d-8bf18cf60bcf)  
 
+
+
 At the time of writing, this module was not flagged as malicious by VirusTotal, highlighting how such techniques can easily evade standard detection mechanisms.  
+Sample1:
 ![2025-06-08_01-42](https://github.com/user-attachments/assets/2a19e69b-50cc-4979-a96d-056d352f846b)  
 https://www.virustotal.com/gui/file/c7022836a3f92a6589df7cce99ee3db69ce0a98a7c266ba90a8ec5e37227329e?nocache=1   
+
+Sample2: 
+![2025-06-08_13-19](https://github.com/user-attachments/assets/d0a56c5d-2247-4db7-85fb-7a38561873b5)  
+
+https://www.virustotal.com/gui/file/5dc45286ff0904add55a4c2b286f0e79c7b880dfa21c6badbb5f814fefd7476e?nocache=1  
+
 
 #### Step 1: Install Development Package for PAM Modules    
 You need to install libpam0g-dev because it provides the header files and libraries required to compile custom PAM modules  
