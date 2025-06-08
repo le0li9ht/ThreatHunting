@@ -6,7 +6,7 @@ _This article is intended for educational and awareness purposes only. The techn
 PAM modules are dynamically loaded components that handle authentication on Linux systems. Attackers can exploit this by installing malicious modules and modifying PAM’s configuration to load them during login. This allows the attacker to secretly capture user credentials whenever authentication occurs, making it a powerful vector for persistent access and data theft  
 
 Note: This was tested on Debian-based systems. The provided steps are specifically tailored for Debian/Ubuntu environments. For Fedora or Red Hat systems, just update the library and configuration file paths—the module code remains the same.  
-#### How the backdoor works?
+#### How the infostealer(custom module) works?
 The malicious code hooks into _pam_sm_authenticate()_, capturing the username via _pam_get_user()_ and the password via _pam_get_authtok()_ before silently logging or exfiltrating them. Meanwhile, _pam_sm_setcred()_ completes the authentication process to avoid detection.
 
 I’ve uploaded code for two Linux PAM modules: one logs credentials to disk (already compiled), and the other exfiltrates to Google Forms (requires updating values before compiling). Download [here](https://github.com/le0li9ht/ThreatHunting/blob/main/Linux/PAM/StealingCredentials/pam_backdoor_lab.zip)  
