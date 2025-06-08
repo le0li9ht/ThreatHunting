@@ -73,9 +73,10 @@ Credentials are sent silently to your configured Google Form. Check your Google 
 ![2025-06-08_00-54](https://github.com/user-attachments/assets/8d773b2c-7369-4e9e-af75-7961f9da1fef)
 Exfiltrated credentials on google form.
   
-#### Detection
-Always monitor the directories where PAM modules are loaded—such as /etc/pam.d/ and /lib/security/  /lib/x86_64-linux-gnu/security/  —using File Integrity Monitoring (FIM) to detect unauthorized changes. 
+#### Detection. 
+Always monitor the directories where PAM modules are loaded—such as /etc/pam.d/ and /lib/security/  /lib/x86_64-linux-gnu/security/  —using File Integrity Monitoring (FIM) to detect unauthorized changes.  
 
+Elastic has written a nicr detection rule for the same [persistence_pluggable_authentication_module_creation](https://github.com/elastic/detection-rules/blob/ac541f0b18697e053b3b56544052955d29b440c0/rules/linux/persistence_pluggable_authentication_module_creation.toml)  
 ##### MITRE. 
 [T1556.003 - Pluggable Authentication Modules: Malicious PAM](https://attack.mitre.org/techniques/T1556/003/)  
 
