@@ -9,3 +9,6 @@ RedTeaming Free cources:
   
 Detection Engineering Ideas:  
 - [https://docs.sekoia.io/xdr/features/detect/built_in_detection_rules/](https://docs.sekoia.io/xdr/features/detect/built_in_detection_rules/)  
+
+Advanced Windows Registry forensics reference and search engine  
+- https://regseek.github.io/  
