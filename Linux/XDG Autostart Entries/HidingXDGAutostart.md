@@ -18,6 +18,7 @@ Alternatively, you can mimic the same action by copying the .desktop file for Br
 
 ![2025-06-19_10-15](https://github.com/user-attachments/assets/4a94ef81-a4bb-4829-ab7c-b83c34142d76)    
 Running the above command copies the brave-browser.desktop file from the system-wide applications directory to the user-specific xdg autostart location as shown above.
+
 Now, try logging out and logging back in—or simply restart your system—and you’ll see that Brave Browser launches automatically at startup  
 #### How attackers abuse xdg autostart entries
 Now that you understand how XDG Autostart functionality works, let’s explore how attackers can abuse it to maintain persistence on a compromised system.  
