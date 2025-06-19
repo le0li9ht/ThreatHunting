@@ -45,7 +45,7 @@ to make the .desktop entry invisible in the Startup Applications GUI, you can us
 
 You can also use the **NotShowIn** entries as well
 
-![2025-06-19_11-28](https://github.com/user-attachments/assets/bae410fe-0674-436f-a56d-460beeffac1e)
+![2025-06-19_11-31](https://github.com/user-attachments/assets/ad103cb5-229a-4ff9-b7b0-57b301a29378)
 
 
 During red team or pentest engagements, leverage ~/.config/autostart/ to maintain persistence. Hide your .desktop file from the user interface as shown.  
