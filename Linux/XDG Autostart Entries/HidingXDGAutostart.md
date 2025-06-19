@@ -58,3 +58,4 @@ An excerpt from the documentation manual to understand more about these techniqu
 
 ### Reference:
 https://specifications.freedesktop.org/autostart-spec/latest/    
+https://specifications.freedesktop.org/desktop-entry-spec/latest/recognized-keys.html  
