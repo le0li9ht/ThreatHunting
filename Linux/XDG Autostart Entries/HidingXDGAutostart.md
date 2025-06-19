@@ -30,18 +30,17 @@ Name=System Application
 Exec="/home/mal.sh"
 X-GNOME-Autostart-enabled=true
 ```
+#### Hiding xdg autostart backdoor
 Wait—we already know this technique; it’s widely used by both threat actors and red teamers. But the problem is, when abused in its default form, it’s easily detectable. For example, if you create a malicious autostart entry as shown below, it will immediately appear in the Startup Applications utility.  
 
-![2025-06-19_10-50](https://github.com/user-attachments/assets/a7991f5c-7a30-48ee-a2c8-12051c4bcc23)  
+![2025-06-19_11-07_1](https://github.com/user-attachments/assets/d075efc5-7163-4329-a223-49bc52d0a50c)
 
 This means even a regular user could spot it and recognize it as suspicious. So, while the technique is effective, it's not stealthy.  Now, let me show you how to make it invisible to the eyes of a normal desktop user   
 
 to make the .desktop entry invisible in the Startup Applications GUI, you can use either of the following stealth techniques:
 
 - Change **NoDisplay=false** to **NoDisplay=true** - This hides the entry from GUI-based startup managers like gnome-session-properties, but it will still execute at login.  
-Alternatively, 
-- set **Hidden=true** - This disables the entry completely according to XDG spec, but if this key is present only in lower-precedence paths (like ~/.config/autostart) and not overridden by a higher-priority file, some desktop environments may still process it inconsistently.
-    
-    ![2025-06-19_10-49](https://github.com/user-attachments/assets/2af441b7-a3bc-45ec-9a9f-e62de04594ce)    
+  
+![2025-06-19_11-07](https://github.com/user-attachments/assets/51512a1e-8c56-4e16-b79d-8ef194614b3c)
 
 
