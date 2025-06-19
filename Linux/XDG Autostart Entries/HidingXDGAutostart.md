@@ -39,7 +39,7 @@ This means even a regular user could spot it and recognize it as suspicious. So,
 
 to make the .desktop entry invisible in the Startup Applications GUI, you can use either of the following stealth techniques:
 
-- Change **NoDisplay=false** to **NoDisplay=true** - This hides the entry from GUI-based startup managers like gnome-session-properties, but it will still execute at login.  
+- Change **NoDisplay=false** to **NoDisplay=true** - This hides the entry from GUI-based startup managers like Startup Applications(_gnome-session-properties_), but it will still execute at login.  
   
 ![2025-06-19_11-07](https://github.com/user-attachments/assets/51512a1e-8c56-4e16-b79d-8ef194614b3c)
 
