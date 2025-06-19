@@ -51,7 +51,7 @@ You can also use the **NotShowIn** entries as well
 During red team or pentest engagements, leverage ~/.config/autostart/ to maintain persistence. Hide your .desktop file from the user interface as shown.  
 I shared this stealthy Linux persistence [method back in 2022](https://x.com/ashokkrishna99/status/1529722464963506176) — now resharing with proper explanation for those who missed it.  
 
-A excerpt from the documentation manual to understand more about these techniques.  
+An excerpt from the documentation manual to understand more about these techniques.  
 ![image](https://github.com/user-attachments/assets/1c432949-4001-44a6-9a50-78d0be178fa8)
 
 
