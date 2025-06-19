@@ -41,10 +41,20 @@ to make the .desktop entry invisible in the Startup Applications GUI, you can us
 
 - Change **NoDisplay=false** to **NoDisplay=true** - This hides the entry from GUI-based startup managers like Startup Applications(_gnome-session-properties_), but it will still execute at login.  
   
-![2025-06-19_11-07](https://github.com/user-attachments/assets/51512a1e-8c56-4e16-b79d-8ef194614b3c)
+![2025-06-19_11-07](https://github.com/user-attachments/assets/51512a1e-8c56-4e16-b79d-8ef194614b3c)  
+
+You can also use the **NotShowIn** entries as well
+
+![2025-06-19_11-28](https://github.com/user-attachments/assets/bae410fe-0674-436f-a56d-460beeffac1e)
+
 
 During red team or pentest engagements, leverage ~/.config/autostart/ to maintain persistence. Hide your .desktop file from the user interface as shown.  
-I shared this stealthy Linux persistence [method back in 2022](https://x.com/ashokkrishna99/status/1529722464963506176) — now resharing with proper explanation for those who missed it.
+I shared this stealthy Linux persistence [method back in 2022](https://x.com/ashokkrishna99/status/1529722464963506176) — now resharing with proper explanation for those who missed it.  
+
+A excerpt from the documentation manual  
+![image](https://github.com/user-attachments/assets/1c432949-4001-44a6-9a50-78d0be178fa8)
+
+
 
 ### Reference:
 https://specifications.freedesktop.org/autostart-spec/latest/    
