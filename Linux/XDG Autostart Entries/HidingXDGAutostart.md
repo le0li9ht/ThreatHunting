@@ -43,7 +43,7 @@ to make the .desktop entry invisible in the Startup Applications GUI, you can us
   
 ![2025-06-19_11-07](https://github.com/user-attachments/assets/51512a1e-8c56-4e16-b79d-8ef194614b3c)  
 
-You can also use the **NotShowIn** entries as well
+You can also use the NotShowIn key to hide entries from specific desktop environments
 
 ![2025-06-19_11-31](https://github.com/user-attachments/assets/ad103cb5-229a-4ff9-b7b0-57b301a29378)
 
