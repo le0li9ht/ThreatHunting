@@ -43,4 +43,8 @@ to make the .desktop entry invisible in the Startup Applications GUI, you can us
   
 ![2025-06-19_11-07](https://github.com/user-attachments/assets/51512a1e-8c56-4e16-b79d-8ef194614b3c)
 
+During red team or pentest engagements, leverage ~/.config/autostart/ to maintain persistence. Hide your .desktop file from the user interface as shown.  
+I shared this stealthy Linux persistence [method back in 2022](https://x.com/ashokkrishna99/status/1529722464963506176) — now resharing with proper explanation for those who missed it.
 
+### Reference:
+https://specifications.freedesktop.org/autostart-spec/latest/    
