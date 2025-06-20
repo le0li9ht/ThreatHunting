@@ -12,3 +12,5 @@ Detection Engineering Ideas:
 
 Advanced Windows Registry forensics reference and search engine  
 - https://regseek.github.io/  
+KQL learning  
+- https://rodtrent.substack.com/t/kql  
