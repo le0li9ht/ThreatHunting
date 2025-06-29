@@ -17,6 +17,7 @@ FortiSIEM Rules
 Splunk Detections  
 - https://research.splunk.com/detections/  
 
+
 Panther Detections  
 - https://github.com/panther-labs/panther-analysis  
 
@@ -38,3 +39,6 @@ Cortex XDR analytics alert references:
 #### SOC Automation Capability Matrix  
 - https://tinesio.notion.site/4fd14ccf93e7408c8faf96c5aca8c3fd?v=6c62326a57444ca9890e41daad193e3c
 - https://tuckner.github.io/automation-capability-matrix/  
+
+#### Microsoft Teams Threat Matrix 
+- https://cyberdom.blog/inside-the-microsoft-teams-attack-matrix-unpacking-the-the-frontier-in-collaboration-threats/
