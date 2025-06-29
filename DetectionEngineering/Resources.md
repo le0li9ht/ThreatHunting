@@ -33,3 +33,8 @@ Cortex XDR analytics alert references:
 
 #### Detection Engineering Maturity Matrix  
 - https://detectionengineering.io/  
+
+
+#### SOC Automation Capability Matrix  
+- https://tinesio.notion.site/4fd14ccf93e7408c8faf96c5aca8c3fd?v=6c62326a57444ca9890e41daad193e3c
+- https://tuckner.github.io/automation-capability-matrix/  
