@@ -27,3 +27,6 @@ DataDogHQ Detections
 Elastic Detections  
 - https://github.com/elastic/detection-rules
 
+Cortex XDR analytics alert references:  
+- https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Analytics-Alert-Reference-by-data-source/Cortex-XDR-Analytics-Alert-Reference
+
