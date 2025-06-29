@@ -22,3 +22,7 @@ Panther Detections
 
 DataDogHQ Detections  
 - https://docs.datadoghq.com/security/detection_rules/
+
+Elastic Detections  
+- https://github.com/elastic/detection-rules
+
