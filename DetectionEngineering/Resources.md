@@ -50,3 +50,8 @@ Cortex XDR analytics alert references:
 #### Log Events - Trend Micro
 - https://help.deepsecurity.trendmicro.com/10/0/Events-Alerts/syslog-parsing.html
 - https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-syslog-content-mapping-cef
+
+
+
+Malware analysis: 
+- https://ohmymalware.com/ 
