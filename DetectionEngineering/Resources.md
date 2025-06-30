@@ -25,6 +25,9 @@ DataDogHQ Detections
 - https://docs.datadoghq.com/security/detection_rules/
 - https://docs.datadoghq.com/security/default_rules/
 
+Stellar Cyber
+- https://docs.stellarcyber.ai/4.3.x/Using/ML/Alert-Rule-Based-Intro.htm
+
 Elastic Detections  
 - https://github.com/elastic/detection-rules
 
