@@ -52,6 +52,8 @@ Cortex XDR analytics alert references:
 - https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-syslog-content-mapping-cef
 
 
-
 Malware analysis: 
 - https://ohmymalware.com/ 
+
+OSSEM  
+- https://github.com/OTRF/OSSEM
