@@ -46,11 +46,13 @@ Cortex XDR analytics alert references:
 #### Microsoft Teams Threat Matrix 
 - https://cyberdom.blog/inside-the-microsoft-teams-attack-matrix-unpacking-the-the-frontier-in-collaboration-threats/
 
-
+## Log Collection
 #### Log Events - Trend Micro
 - https://help.deepsecurity.trendmicro.com/10/0/Events-Alerts/syslog-parsing.html
 - https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-syslog-content-mapping-cef
 
+Windows Events Collection Guide  Yamato Security
+- https://github.com/Yamato-Security/EnableWindowsLogSettings/tree/main
 
 Malware analysis: 
 - https://ohmymalware.com/ 
