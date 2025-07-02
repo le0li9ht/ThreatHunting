@@ -54,13 +54,18 @@ Cortex XDR analytics alert references:
 Windows Events Collection Guide  Yamato Security
 - https://github.com/Yamato-Security/EnableWindowsLogSettings/tree/main
 
+CISCO ISE   
+ISE Syslog Messages-Message codes and their description.  
+- https://www.cisco.com/c/en/us/td/docs/security/ise/syslog/Cisco_ISE_Syslogs/m_SyslogsList.html
+
+
 Malware analysis: 
 - https://ohmymalware.com/ 
 
 OSSEM  
 - https://github.com/OTRF/OSSEM
 
-
+## DDOS
 
 DDOS: State of IP Spoofing
 - https://spoofer.caida.org/summary.php
