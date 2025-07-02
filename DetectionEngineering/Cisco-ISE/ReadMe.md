@@ -10,9 +10,8 @@ Download the [script](https://github.com/le0li9ht/ThreatHunting/blob/main/Detect
 ```
 python3 Parse-ISE.py
 ```
-![image](https://github.com/user-attachments/assets/a2bb4d28-e5fd-4bda-a0d0-d2fc3f9f321a)
-
+![image](https://github.com/user-attachments/assets/923722d0-6dde-4a8e-bfd4-f9150a6630b4)
 Extracted Message Codes for CISCO ISE are shown below.  
 
-![image](https://github.com/user-attachments/assets/923722d0-6dde-4a8e-bfd4-f9150a6630b4)
+![image]https://github.com/user-attachments/assets/923722d0-6dde-4a8e-bfd4-f9150a6630b4)
 
