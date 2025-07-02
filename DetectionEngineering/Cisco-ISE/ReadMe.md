@@ -1,3 +1,5 @@
+## Cisco ISE Log Reference Guide
+For detection engineers and security analysts, having a structured log reference is critical during log ingestion, parsing, and incident investigation. I wrote a Python script that automates the extraction of Cisco ISE syslog message codes from [official documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/syslog/Cisco_ISE_Syslogs/m_SyslogsList.html) and saves them into a csv file as shown. 
 #### Pre-requisites:  
 - Install Python3
 - Install the following modules.
