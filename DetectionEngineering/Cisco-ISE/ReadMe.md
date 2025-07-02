@@ -12,7 +12,6 @@ python3 Parse-ISE.py
 ```
 ![image](https://github.com/user-attachments/assets/cff986da-5177-4d3d-a2fb-11bfdff75c6d)
 
-Extracted Message Codes for CISCO ISE are shown below.  
-
+Below is the list of Cisco ISE message codes that were extracted: 
 ![image](https://github.com/user-attachments/assets/923722d0-6dde-4a8e-bfd4-f9150a6630b4)
 
