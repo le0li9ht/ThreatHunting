@@ -57,6 +57,9 @@ Windows Events Collection Guide  Yamato Security
 CISCO ISE   
 ISE Syslog Messages-Message codes and their description.  
 - https://www.cisco.com/c/en/us/td/docs/security/ise/syslog/Cisco_ISE_Syslogs/m_SyslogsList.html
+what events to collect?
+- https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/ThreatAnalysisCenter/Integrations/Cisco/ISE/index.html#allow
+
 
 
 Malware analysis: 
