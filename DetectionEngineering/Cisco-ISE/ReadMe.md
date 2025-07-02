@@ -17,3 +17,7 @@ python3 Parse-ISE.py
 Below is the list of Cisco ISE message codes that were extracted: 
 ![image](https://github.com/user-attachments/assets/923722d0-6dde-4a8e-bfd4-f9150a6630b4)
 
+### References:  
+https://www.cisco.com/c/en/us/td/docs/security/ise/syslog/Cisco_ISE_Syslogs/m_SyslogsList.html  
+
+
