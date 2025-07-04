@@ -9,8 +9,11 @@ Sigma Rules:
 - https://github.com/SigmaHQ/sigma/tree/master/rules  
 
 Detections & Ideas:  
-- https://detections.ai/  
+- https://detections.ai/
 
+OpenSIEM    
+We are building the first dedicated platform for sharing and organising high-quality SIEM content — from detection rules and playbooks to dashboards and automation workflows.
+- https://www.opensiem.ai/  
 FortiSIEM Rules
 - https://filestore.fortinet.com/docs.fortinet.com/fsiem/Public_Resource_Access/7_1_1/rules/rule_descriptions.htm  
 
