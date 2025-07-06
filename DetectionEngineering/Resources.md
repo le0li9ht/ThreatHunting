@@ -77,3 +77,9 @@ DDOS: State of IP Spoofing
 - https://spoofer.caida.org/summary.php
 - https://www.microsoft.com/en-us/security/blog/2022/05/23/anatomy-of-ddos-amplification-attacks/
 
+
+
+
+
+
+
