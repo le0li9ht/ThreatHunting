@@ -83,3 +83,7 @@ DDOS: State of IP Spoofing
 
 
 
+Lols:  
+- https://boostsecurityio.github.io/lotp/
+
+
