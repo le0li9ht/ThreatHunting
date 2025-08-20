@@ -3,3 +3,6 @@ Introduction to Kubernetes (LFS158)
 
 Bootstrap Kubernetes the hard way. No scripts.   
 [https://github.com/kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+
+Kubectl commands  
+https://kubectl.docs.kubernetes.io/  
