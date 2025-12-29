@@ -2,3 +2,5 @@
 - https://github.com/invictus-ir/aws-cheatsheet/blob/main/AWS_CloudTrail_CheatSheet.png
 - https://14518100.fs1.hubspotusercontent-na1.net/hubfs/14518100/AWS%20Incident%20Response%20Cheat%20Sheet.pdf
 - https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-aws-service-specific-topics.html#cloudtrail-aws-service-specific-topics-list
+- https://www.youtube.com/watch?v=YWzmoDzzg4U&t=1173s
+- https://xmind.app/m/sY4HG3/
