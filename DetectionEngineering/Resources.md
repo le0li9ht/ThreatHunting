@@ -87,3 +87,19 @@ Lols:
 - https://boostsecurityio.github.io/lotp/
 
 
+
+
+
+
+Adversarial Detection Engineering Framework
+- https://adeframework.org/
+
+Detection Logic Bugs:
+- 
+
+Detection backlog:
+- https://specterops.io/blog/2022/10/05/prioritization-of-the-detection-engineering-backlog/?source=rss----f05f8696e3cc---4
+
+
+
+
