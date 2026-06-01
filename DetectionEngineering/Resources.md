@@ -110,3 +110,10 @@ The pySigma-backend-opensearch repo provides the OpensearchLuceneBackend class. 
 
 
 
+Channels:
+https://www.detectionatscale.com/
+
+
+
+
+
