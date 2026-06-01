@@ -115,5 +115,9 @@ https://www.detectionatscale.com/
 
 
 
+Sigma:
+https://sigconverter.io/
+
+
 
 
