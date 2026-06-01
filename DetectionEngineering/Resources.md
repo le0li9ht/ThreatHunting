@@ -103,3 +103,10 @@ Detection backlog:
 
 
 
+Opensearch:  
+The pySigma-backend-opensearch repo provides the OpensearchLuceneBackend class. It supports converting Sigma rules into Lucene queries and OpenSearch Monitor Rules (alerting rules). The PPL backend is implemented from scratch to support OpenSearch's native Piped Processing Language, including full support for Sigma correlation rules (event_count, value_count, temporal patterns)
+- https://github.com/SigmaHQ/pySigma-backend-opensearch
+
+
+
+
